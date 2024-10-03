@@ -34,13 +34,13 @@
 
     <!-- FIN JEU -->
 
-    <!-- VALORANT -->
+    <!-- UNIVERS -->
 
     <div id="univers" class="bg-black vh-100">
 
     </div>
 
-    <!-- FIN VALORANT -->
+    <!-- FIN UNIVERS -->
 
     <!-- FOOTER -->
 
