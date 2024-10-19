@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/logo.jpg">
     <title>Light's Remnant</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
@@ -20,7 +20,7 @@
 
     <!-- HOME  -->
 
-    <div id="home" class="vh-100 bg-black d-flex justify-content-center align-items-center text-white">
+    <div id="home" class="bg-black d-flex justify-content-center align-items-center text-white" style="height: 80vh">
       <h6><a href="#" class="btn-dl text-decoration-none">JOUEZ GRATUITEMENT</a></h6>
     </div>
 

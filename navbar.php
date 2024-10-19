@@ -14,7 +14,7 @@
         <a href="#reseaux" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">NOS RÉSEAUX</span></a>
       </li>
       <li class="mx-5 d-inline-flex align-items-center">
-        <a class="mx-3 grab"><span class="p-2 ps-3 pe-3 grab-cursor"><img src="images/beacon_off.png" height="35" width="35" class="pointer"></span></a>
+        <span class="p-2 ps-3 pe-3 mx-3"><img id="beaconImage" src="images/beacon_off.png" height="35" width="35" class="grab-cursor"></span>
         <a href="#reseaux" class="fw-bolder text-decoration-none color-nav me-3"><span class="p-2 ps-3 pe-3 rounded btn-jouer">JOUER</span></a>
       </li>
     </ul>
@@ -63,3 +63,32 @@
 </div>
 
 <!-- FIN NAVBAR -->
+
+<!-- JAVASCRIPT -->
+
+  <!-- LANTERNE -->
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const beaconImage = document.getElementById('beaconImage');
+            let isHoldingBeacon = false;
+
+            beaconImage.addEventListener('mousedown', function (event) {
+                event.preventDefault();
+
+                isHoldingBeacon = true;
+                beaconImage.style.visibility = 'hidden';
+                document.body.style.cursor = 'url(images/beacon_on.png) 20 17, auto';
+            });
+
+            document.addEventListener('click', function (event) {
+                if (isHoldingBeacon && event.target !== beaconImage) {
+                    beaconImage.style.visibility = 'visible';
+                    document.body.style.cursor = 'auto';
+                    isHoldingBeacon = false;
+                }
+            });
+        });
+    </script>
+
+  <!-- FIN LANTERNE -->
