@@ -13,8 +13,9 @@
         <a href="#support" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">SUPPORT</span></a>
         <a href="#reseaux" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">NOS RÉSEAUX</span></a>
       </li>
-      <li class="mx-5">
-        <a href="#reseaux" class="fw-bolder text-decoration-none color-nav mx-3 pb-3"><span class="p-2 ps-3 pe-3 rounded btn-jouer">JOUER</span></a>
+      <li class="mx-5 d-inline-flex align-items-center">
+        <a class="mx-3 grab"><span class="p-2 ps-3 pe-3 grab-cursor"><img src="images/beacon_off.png" height="35" width="35" class="pointer"></span></a>
+        <a href="#reseaux" class="fw-bolder text-decoration-none color-nav me-3"><span class="p-2 ps-3 pe-3 rounded btn-jouer">JOUER</span></a>
       </li>
     </ul>
 
