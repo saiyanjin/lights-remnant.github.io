@@ -21,7 +21,7 @@
     <!-- HOME  -->
 
     <div id="home" class="bg-black d-flex justify-content-center align-items-center text-white" style="height: 80vh">
-      <h6><a href="#" class="btn-dl text-decoration-none">JOUEZ GRATUITEMENT</a></h6>
+      <h6 class="h-dl"><a href="#" class="btn-dl text-decoration-none">JOUEZ GRATUITEMENT</a></h6>
     </div>
 
     <!-- FIN HOME -->
