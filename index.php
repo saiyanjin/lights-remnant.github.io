@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/logo.jpg">
     <title>Light's Remnant</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
@@ -26,18 +26,41 @@
 
     <!-- FIN HOME -->
 
-    <!-- JEU -->
+    <!-- ACTUS -->
 
-    <div id="jeu" class="bg-white vh-100">
-
+    <div id="actus" class="bg-white" style="height: 60vh;">
+      <div class="actu-affiche pt-5">
+        <h2 class="fw-bold fst-italic mb-4 text-start">ACTUS À L'AFFICHE</h2>
+        <div class="d-flex align-items-between justify-content-between">
+          <div class="me-3 pointer">
+            <span class="d-block overflow-hidden"><img src="images/test.jpg" alt="Image 1" class="img-fluid img-actu"></span>
+            <p class="info-actu mt-3 mb-0"><span class="fw-bold type-actu">ACTUALITÉS </span> | 25/10/2024</p>
+            <h5 class="fw-bold mt-3">Avancée du projet</h5>
+            <p>Suivez l'avancée du projet en détail.</p>
+          </div>
+          <div class="mx-3 d-none d-sm-block pointer">
+            <span class="d-block overflow-hidden"><img src="images/test.jpg" alt="Image 2" class="img-fluid img-actu"></span>
+            <p class="info-actu mt-3 mb-0"><span class="fw-bold type-actu">RÉSEAUX </span> | 24/10/2024</p>
+            <h5 class="fw-bold mt-3">Avancée du projet</h5>
+            <p>Suivez l'avancée du projet en détail.</p>
+          </div>
+          <div class="ms-3 d-none d-xxl-block pointer">
+            <span class="d-block overflow-hidden"><img src="images/test.jpg" alt="Image 3" class="img-fluid img-actu"></span>
+            <p class="info-actu mt-3 mb-0"><span class="fw-bold type-actu">MÉDIA </span> | 28/10/2024</p>
+            <h5 class="fw-bold mt-3">Avancée du projet</h5>
+            <p>Suivez l'avancée du projet en détail.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- FIN JEU -->
+
+    <!-- FIN ACTUS -->
 
     <!-- UNIVERS -->
 
-    <div id="univers" class="bg-black vh-100">
-
+    <div id="univers" class="bg-white vh-100">
+      
     </div>
 
     <!-- FIN UNIVERS -->

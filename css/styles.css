@@ -32,6 +32,10 @@
     transform: scale(1.03);
 }
 
+
+
+
+
 /* ************************************************************BOUTONS NAV************************************************************** */
 
 .hover-nav-bot:hover {
@@ -91,11 +95,47 @@
 /* ************************************************************FIN BOUTON TÉLECHARGER************************************************************** */
 
 
+/* ************************************************************DÉBUT ACTUS A L'AFFICHE************************************************************** */
+
+.actu-affiche {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#actus {
+    background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c59eeaf4adc540fd42745bd5c71563fba8f6288-3840x1328.png?auto=format&fit=fill&q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-actu {
+    transition: transform 0.5s ease;
+}
+.img-actu:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.type-actu {
+    color: #c8aa6e;
+}
+
+.info-actu {
+    font-size: smaller;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* ************************************************************FIN ACTUS A L'AFFICHE************************************************************** */
+
+
 
 /* ************************************************************DEBUT FOOTER************************************************************** */
 
 #btn-res {
-    border: px solid red;
     color: white;
     display: flex;
     justify-content: center;
