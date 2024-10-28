@@ -59,8 +59,17 @@
 
     <!-- UNIVERS -->
 
-    <div id="univers" class="bg-white vh-100">
-      
+    <div id="univers" class="bg-white vh-100 d-flex justify-content-center align-items-center">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col" style="border:1px solid red">
+            Column
+          </div>
+          <div class="col" style="border:1px solid blue">
+            Column
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- FIN UNIVERS -->
