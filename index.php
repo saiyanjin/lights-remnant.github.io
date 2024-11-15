@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/logo.jpg">
     <title>Light's Remnant</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
@@ -28,7 +28,7 @@
 
     <!-- ACTUS -->
 
-    <div id="actus" class="bg-white" style="height: 60vh;">
+    <div id="actus" class="" style="height: 60vh;">
       <div class="actu-affiche pt-5">
         <h2 class="fw-bold fst-italic mb-4 text-start">ACTUS À L'AFFICHE</h2>
         <div class="d-flex align-items-between justify-content-between">
