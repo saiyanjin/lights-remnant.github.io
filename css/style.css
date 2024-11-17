@@ -1,5 +1,5 @@
 .bg-nav {
-    background-color: #111111;
+    background-color: #111;
     height: 80px;
     border-bottom: 2px solid #1a1a1a;
 }
@@ -92,6 +92,17 @@
     transition-duration: 0.6s;
 }
 
+.btn-dl2 {
+    padding: 15px 30px 15px 30px;
+    color: black;
+    background-color: #c8aa6e;
+}
+
+.btn-dl2:hover {
+    background-color: #d3bb8b;
+    transition-duration: 0.6s;
+}
+
 /* ************************************************************FIN BOUTON TÉLECHARGER************************************************************** */
 
 
@@ -131,6 +142,21 @@
 
 /* ************************************************************FIN ACTUS A L'AFFICHE************************************************************** */
 
+
+/* ************************************************************DÉBUT PRÉSENTATION JEU************************************************************** */
+
+.video-presentation {
+    width: 100%;
+    max-width: 600px; 
+    aspect-ratio: 1 / 1;
+    outline: 1px solid #c8aa6e;
+    outline-offset: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+
+/* ************************************************************FIN PRÉSENTATION JEU************************************************************** */
 
 
 /* ************************************************************DEBUT FOOTER************************************************************** */

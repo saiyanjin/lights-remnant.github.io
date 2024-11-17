@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/logo.jpg">
     <title>Light's Remnant</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
@@ -60,13 +60,21 @@
     <!-- UNIVERS -->
 
     <div id="univers" class="bg-white vh-100 d-flex justify-content-center align-items-center">
-      <div class="container text-center">
+      <div class="container text-center mt-5">
         <div class="row">
-          <div class="col" style="border:1px solid red">
-            Column
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-5">
+            <div>
+              <h5>DÉCOUVREZ DIFFÉRENTS ENVIRONNEMENTS DE</h5><br> 
+              <h1 class="fst-italic fw-bold">GAMEPLAY</h1><br> 
+              <h6 class="mt-4"><a href="#" class="btn-dl2 text-decoration-none">JOUEZ MAINTENANT</a></h6>
+            </div>
           </div>
-          <div class="col" style="border:1px solid blue">
-            Column
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-5">
+            <div>
+              <video class="video-presentation rounded-video img-fluid" src="images/clip-presentation.mp4" autoplay loop muted></video><br>
+              <h5 class="fst-italic fw-bold mt-5">REDÉCOUVREZ LE PLATEFORMER AVEC LIGHT'S REMNANT</h5><br> 
+              <h6 class="">Essayez de nouvelles mécaniques, explorez un monde nouveau et tentez d'atteindre le sommet en éclairant à nouveau le monde.</h6><br> 
+            </div>
           </div>
         </div>
       </div>
