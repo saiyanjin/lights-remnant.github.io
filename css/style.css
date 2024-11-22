@@ -74,6 +74,31 @@
 /* ************************************************************FIN BOUTONS NAV************************************************************** */
 
 /* ************************************************************BOUTON TÉLECHARGER ************************************************************** */
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Hauteur de l'écran */
+    overflow: hidden; /* Empêche le débordement */
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure le recadrage */
+    z-index: -1; /* Place la vidéo derrière le contenu */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Place le contenu au-dessus de la vidéo */
+    text-align: center;
+    color: white; /* Texte lisible sur la vidéo */
+}
+
 
 .h-dl {
     margin-top: 250px;
