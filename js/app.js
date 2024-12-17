@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         isHoldingBeacon = true;
         beaconImage.style.visibility = 'hidden';
-        document.body.style.cursor = 'url(images/beacon_on.png) 20 17, auto';
+        document.body.style.cursor = 'url(../images/beacon_on.png) 20 17, auto';
     });
 
     document.addEventListener('click', function (event) {
