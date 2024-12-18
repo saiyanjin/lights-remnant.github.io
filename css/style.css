@@ -261,37 +261,6 @@ h1 {
 
 /* ************************************************************DEBUT BALISES************************************************************** */
 
-.bouton-balise {
-    display: inline-block;
-    border: 1px solid red;
-    text-decoration: none;
-	color: white;
-	background-color: rgb(24, 24, 24);
-	margin: 50px;
-	font-size: 22px;
-	cursor: pointer;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	text-align: center;
-}
 
-.bouton-balise:hover{
-	transform: scale(1.10);
-    transition-duration: 0.5s;
-	box-shadow: none;
-}
-
-.btn-on {
-    border: 1px solid #5cbfdb;
-    outline: 2px solid #5cbfdb;
-    outline-offset: 3px;
-}
-
-.btn-off {
-    border: 1px solid #581816;
-    outline: 2px solid #581816;
-    outline-offset: 3px;
-}
 
 /* ************************************************************FIN BALISES************************************************************** */
