@@ -18,3 +18,18 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+// DÉBUT BALISE
+
+document.addEventListener('DOMContentLoaded', function () {
+    const balises = document.querySelectorAll('.balise');
+    
+    balises.forEach(balise => {
+        balise.addEventListener('click', () => {
+            balises.forEach(b => b.classList.remove('selected'));
+            balise.classList.add('selected');
+        });
+    });
+});
+
+// FIN BALISE
