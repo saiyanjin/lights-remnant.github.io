@@ -276,6 +276,12 @@ h1 {
     box-shadow: none;
 }
 
+.balise:active{
+	transform: scale(1.0);
+    transition-duration: 0s;
+	box-shadow: none;
+}
+
 
 
 
