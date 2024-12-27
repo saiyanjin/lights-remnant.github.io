@@ -271,14 +271,14 @@ h1 {
 }
 
 .balise:hover {
-    transform: scale(1.09);
-    transition-duration: 0.4s;
+    transform: scale(1.0);
+    transition-duration: 1s;
     box-shadow: none;
 }
 
 .balise:active{
-	transform: scale(1.0);
-    transition-duration: 0s;
+	transform: scale(1.08);
+    transition-duration: 0.1s;
 	box-shadow: none;
 }
 
