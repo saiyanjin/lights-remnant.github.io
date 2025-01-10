@@ -270,7 +270,7 @@ h1 {
     opacity: 1;
 }
 
-.balise:hover {
+/* .balise:hover {
     transform: scale(1.07);
     transition-duration: 0.5s;
     box-shadow: none;
@@ -280,7 +280,7 @@ h1 {
 	transform: scale(1);
     transition-duration: 0.1s;
 	box-shadow: none;
-}
+} */
 
 
 
