@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'balise-on': {
             image: 'images/beacon_on.png',
             title: 'BALISE ALLUMÉE',
-            description: 'Lorsque vous avez allumé la balise, votre point de réapparition est redéfini sur cette même balise. Essayez de jouer de façon plus risquée !'
+            description: 'Lorsque vous avez allumé la balise, votre point de réapparition est redéfini (sauf exception...) sur cette même balise. Vous pouvez essayer de prendre plus de risque !'
         }
     };
 
