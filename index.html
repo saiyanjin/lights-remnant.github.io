@@ -31,7 +31,7 @@
         </li>
         <li class="mx-5 d-inline-flex align-items-center">
           <!-- <span class="p-2 ps-3 pe-3 mx-3"><img id="beaconImage" src="images/beacon_off.png" height="35" width="35" class="grab-cursor"></span> -->
-          <a href="#reseaux" class="fw-bolder text-decoration-none color-nav me-3"><span class="p-2 ps-3 pe-3 rounded btn-jouer">JOUER</span></a>
+          <div class="fw-bolder text-decoration-none color-nav me-3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jouer"><span class="p-2 ps-3 pe-3 rounded btn-jouer">JOUER</span></a>
         </li>
       </ul>
 
@@ -62,8 +62,8 @@
                 <p class="my-5"><a href="#univers" class="fw-bolder text-decoration-none color-nav mx-3 hover-nav-bot"><span class="p-2 rounded hover-nav">L'UNIVERS</span></a></p>
                 <p class="my-5"><a href="#reseaux" class="fw-bolder text-decoration-none color-nav mx-3 hover-nav-bot"><span class="p-2 rounded hover-nav">NOS RÉSEAUX</span></a></p>
               </div>
-              <a href="#reseaux" class="text-decoration-none mx-3 mb-5">
-                <div class="offcanvas-footer btn-jouer text-center p-3 rounded-3">
+              <!-- <a href="#" class="text-decoration-none mx-3 mb-5"> -->
+                <div class="offcanvas-footer btn-jouer text-center p-3 rounded-3 mx-3 mb-5" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jouer">
                   <span class="fw-bolder color-nav mx-3">JOUER</span>
                 </div>
               </a>
@@ -76,6 +76,24 @@
       <!-- FIN RESPONSIVE -->
 
     </div>
+
+    <!-- JOUER-->
+    <div class="modal fade" id="jouer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content text-white" style="background-color: #1f1f1f !important;">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4 fw-bold fst-italic" id="exampleModalLabel">TÉLÉCHARGER SUR PC</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <p class="fs-5">Téléchargez le jeu sur PC gratuitement juste ici :</p>
+            <p class="fst-italic">> Jeu téléchargeable pour tous gratuitement</p>
+            <p class="fst-italic">> 10 nivaux disponibles dès maintenant</p>
+            <p class="fst-italic">> 2 différents types de décors : cave & extérieur</p>
+          </div>
+        </div>
+      </div>
+    </div>    
 
     <!-- FIN NAVBAR -->
 
