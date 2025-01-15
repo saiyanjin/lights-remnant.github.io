@@ -7,9 +7,9 @@
 
       <ul class="list-unstyled d-xl-flex justify-content-center align-items-center sticky-top bg-nav d-none">
         <li class="mx-5 w-100">
-          <a href="index.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a>
+          <a href="accueil.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a>
           <a href="jeu.html" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">LE JEU</span></a>
-          <a href="index.html#actualites" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">ACTUALITÉS</span></a>
+          <a href="accueil.html#actualites" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">ACTUALITÉS</span></a>
           <a href="#univers" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">L'UNIVERS</span></a>
           <a href="#reseaux" class="fw-bolder text-decoration-none color-nav mx-3 pb-3 hover-nav-bot"><span class="p-2 rounded hover-nav">NOS RÉSEAUX</span></a>
         </li>
@@ -26,7 +26,7 @@
       <div class="d-xl-none ps-3 pt-3">
         <ul class="list-unstyled d-flex">
           <li class="w-100">
-            <a href="index.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a>
+            <a href="accueil.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a>
           </li>
           <li class="ms-5 me-4">
             <button class="btn d-flex align-items-center btn-nav-red rounded-4 fw-bolder" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -35,12 +35,12 @@
               </svg>
             </button>
             
-            <div class="offcanvas offcanvas-end bg-nav-bis" data-bs-scroll="false" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 300px;">
+            <div class="offcanvas offcanvas-end bg-nav-bis" data-bs-scroll="false" tabaccueil="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 300px;">
               <div class="offcanvas-header mt-2 me-2">
                 <button type="button" class="btn-close btn-close-white btn-close-bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-                <p><a href="index.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a></p>
+                <p><a href="accueil.html" class="mx-3"><img src="images/lanterne.gif" class="rounded" style="height: 50px; width: 50px"></a></p>
                 <p class="my-5"><a href="jeu.html" class="fw-bolder text-decoration-none color-nav mx-3 hover-nav-bot"><span class="p-2 rounded hover-nav">LE JEU</span></a></p>
                 <p class="my-5"><a href="#actualites" class="fw-bolder text-decoration-none color-nav mx-3 hover-nav-bot"><span class="p-2 rounded hover-nav">ACTUALITÉS</span></a></p>
                 <p class="my-5"><a href="#univers" class="fw-bolder text-decoration-none color-nav mx-3 hover-nav-bot"><span class="p-2 rounded hover-nav">L'UNIVERS</span></a></p>
@@ -62,7 +62,7 @@
     </div>
 
     <!-- JOUER-->
-    <div class="modal fade" id="jouer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="jouer" tabaccueil="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content text-white" style="background-color: #1f1f1f !important;">
           <div class="modal-header">
