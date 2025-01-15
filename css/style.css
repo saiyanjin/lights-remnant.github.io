@@ -1,3 +1,7 @@
+body {
+    background-color: #1f1f1f !important;
+}
+
 .bg-nav {
     background-color: #111;
     height: 80px;
@@ -203,6 +207,13 @@ h1 {
     outline-offset: 10px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+#univers {
+    background-image: url('../images/fond_actu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
 }
   
 
