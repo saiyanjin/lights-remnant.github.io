@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 
-    <footer id="reseaux" class="text-center text-lg-start mt-5" style="background-color: #1f1f1f;">
+    <footer id="reseaux" class="text-center text-lg-start" style="background-color: #1f1f1f;">
                 
       <div id="btn-res">
           <a href="#" class="bouton" id="twitter">
